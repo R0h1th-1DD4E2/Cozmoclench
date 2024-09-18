@@ -42,7 +42,7 @@ In the workshop, participants will learn:
    cd Cozmoclench
    ```
 
-2. Flash the `ESP8266` with the code in the `gripper-bot-esp8266` folder.
+2. Flash the `ESP8266` with the code in the `root` folder.
 
 3. Modify the `ssid` and `password` in the code to connect the bot to your Wi-Fi network:
    ```cpp
@@ -53,10 +53,10 @@ In the workshop, participants will learn:
 4. Upload the code using the Arduino IDE or another preferred method.
 
 ### Step 2: Web Interface Setup
-You can control the bot using a simple web-based interface. The HTML file is located in the `controller` folder. Host this file on a local server or open it in your browser.
+You can control the bot using a simple web-based interface. The HTML file is located in the `controller` folder. Host this file on a local server or open it in your browser and paste the `ip address` of the bot.
 
 ### Step 3: Game Controller Support
-To control the bot using a game controller, use the Python script located in the `controller` folder.
+To control the bot using a game controller, use the Python script located in the `controller` folder and do the same.
 
 Install the necessary dependencies:
 ```bash
